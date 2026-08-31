@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <!-- Created using Storyline 360 x64 - http://www.articulate.com  -->
-  <!-- version: 3.93.33359.0 -->
-  <title>GUILD-FATEWALKERS</title>
+  <!-- version: 3.124.37782.0 -->
+  <title>GUILD-FATEWALKERS-V2</title>
   <meta http-equiv="x-ua-compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no,minimal-ui"/>
   <meta name="apple-mobile-web-app-capable" content="yes"/>
@@ -24,20 +24,20 @@
       tinCanPresent: false,
       cmi5Present: false,
       aoSupport: false,
-      scale: 'noscale',
+      scale: 'Scaled',
       captureRc: false,
       browserSize: 'optimal',
       bgColor: '#282828',
-      features: 'DropInAcc,DropInBase,DropInCore,DropInInteractions,DropInMisc,DropInVectors,DropInVideo,LayerPresentAsDialog,MultipleQuizTracking,UpdatedThemeEditor',
+      features: 'DropInBase,JsInteractions,Localization,PlayerMemoryEnhancements,SlideLevelScale',
       themeName: 'unified',
       preloaderColor: '#FFFFFF',
       suppressAnalytics: false,
       productChannel: 'stable',
       publishSource: 'storyline',
       aid: 'auth0|5acd0731cc3ada2917c6357c',
-      cid: '93d12512-90d9-4fc9-96f5-4e1773ae989e',
-      playerVersion: '3.93.33359.0',
-      publishTimestamp: '2026-08-24T05:49:03.7388894Z',
+      cid: 'b4dae38c-2665-4a18-a327-103d220a57b3',
+      playerVersion: '3.124.37782.0',
+      publishTimestamp: '2026-08-31T03:13:57.0289155Z',
       maxIosVideoElements: 10,
       connectionSettings: { message: 'You%20are%20offline.%20Trying%20to%20reconnect...', useDarkTheme: false, mode: 'disabled' },
       hasFeature: function(feature) {
@@ -62,6 +62,15 @@
       }
 
     };
+
+    if (window.flagsUnderTest != null) {
+      window.globals.features = window.flagsUnderTest.reduce((accum, feature) => {
+        if (!accum.includes(feature)) {
+          accum.push(feature);
+        }
+        return accum;
+      }, window.globals.features.split(',')).join();
+    }
   </script>
   <script>
     var isIe11 = ('ActiveXObject' in window || window.MSBlobBuilder != null)
@@ -73,12 +82,13 @@
   </script>
 
   <script>
-    if (window.globals.hasFeature('MultiLanguageSinglePackageSupport')) {
+    if (window.globals.hasFeature('Localization')) {
       
       
     }
   </script>
 
+  
   
   <script src='html5/lib/scripts/three.min.js' type=text/javascript></script>
   
@@ -142,7 +152,7 @@
   </script>
 
   <div class="mobile-load-title-overlay" style="display: none">
-    <div class="mobile-load-title">GUILD-FATEWALKERS</div>
+    <div class="mobile-load-title">GUILD-FATEWALKERS-V2</div>
   </div>
 
   <div class="mobile-chrome-warning"></div>
@@ -425,7 +435,7 @@
     function disableKeys() {
       if (DS.views && DS.views.nsStack && DS.views.nsStack.length === 1) {
         DS.views.nsStack[0].tabReachable = false
-        DS.views.nsStack[0].updateTabIndex(true, true);
+        DS.views.nsStack[0].updateTabIndex(true);
       }
 
       accStyle.innerHTML = '.acc-shadow-dom { display: none; }';

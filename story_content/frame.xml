@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npnxnanbnsnfns00001100001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00001100001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" preventUpscale="true" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
   <layouts>
     <layout name="npnxnanbsnfns00001100001" font="Lato" controllayout="npnxnanbsnfns00001100001" colorscheme="npnxnanbnsnfns00001100001" string_table="npnxnanbnsnfns00001100001" />
     <layout name="pxabnsnfns00001100001" font="Lato" controllayout="pxabnsnfns00001100001" colorscheme="npnxnanbnsnfns00001100001" string_table="npnxnanbnsnfns00001100001" />
@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="GUILD-FATEWALKERS" />
+              <option name="title_text" value="GUILD-FATEWALKERS-V2" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -44,6 +44,7 @@
             </options>
           </option>
           <option name="logoAltText" />
+          <option name="logoAltTextEnabled" value="true" />
         </options>
       </optiongroup>
       <optiongroup name="menuoptions">
@@ -101,6 +102,7 @@
           <option name="placement" value="100" />
           <option name="backgroundColor" value="#000000FF" />
           <option name="color" value="#FFFFFFFF" />
+          <option name="textShadow" value="1" />
         </options>
       </optiongroup>
     </optiongroups>
@@ -1569,6 +1571,15 @@
       <string id="video_transcript_title">Transcript</string>
       <string id="zoom_to_fit">Zoom to fit</string>
       <string id="continue">Continue</string>
+      <string id="invalid_prompt_button">OK</string>
+      <string id="invalid_prompt_message">You must complete the question before submitting.</string>
+      <string id="invalid_prompt_title">Invalid Answer</string>
+      <string id="print_prompt_button">OK</string>
+      <string id="print_prompt_title">Enter name</string>
+      <string id="print_prompt_message">Enter your name in the field below:</string>
+      <string id="timer_prompt_button">OK</string>
+      <string id="timer_prompt_title">Time Limit Exceeded</string>
+      <string id="timer_prompt_message">You have reached the time limit set for the quiz. Press 'OK' to continue.</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1583,27 +1594,29 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5ljb3qmZz2X" displaytext="Intro Scene- New Guild Member" expand="true" type="slide">
+        <slidelink slideid="_player.5ljb3qmZz2X" displaytext="Intro Scene- New Guild Member" expand="true" type="slide" translationId="6rIs8r7QYrh">
           <links>
-            <slidelink slideid="_player.5ljb3qmZz2X.6Y0Mt2ST559" displaytext="Menu" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.5gUq8NqUZXY" displaytext="Who are you?" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.5sNZUbx51YP" displaytext="Inventory" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.6NNnnh6y9d6" displaytext="ADVENTURE" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.62dVGwS4VvV" displaytext="Intro-dialouge" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.5p8qIky4Cts" displaytext="Main Guild" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.6ZcFwgZXRtb" displaytext="Journal-Open" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.5k3ECmHcldw" displaytext="Dining Hall" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.6ZzfotkmjPx" displaytext="Dorm Rooms" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.6Id4mi0d1RT" displaytext="Marius-Guild Office" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.6rVMzyIUeBV" displaytext="Kitchens" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.5t0HuR07Bur" displaytext="Library Hall" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.5pW2qt5jAxC" displaytext="Inside- Library" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.68YtjEeDLpb" displaytext="Text Entry-SHEEP" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.5ejLITHVIIs" displaytext="Text Entry-WIZARD" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.5jXzOkXKown" displaytext="Text Entry-BANDIT" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.5i5yhrMaacz" displaytext="Outside Guild Office" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.5gTdiUI6pnb" displaytext="SHOP" expand="false" type="slide" />
-            <slidelink slideid="_player.5ljb3qmZz2X.688N6mj5aua" displaytext="Store" expand="false" type="slide" />
+            <slidelink slideid="_player.5ljb3qmZz2X.6Y0Mt2ST559" displaytext="Menu" expand="false" type="slide" translationId="6FWVpqvN1UD" />
+            <slidelink slideid="_player.5ljb3qmZz2X.5gUq8NqUZXY" displaytext="Who are you?" expand="false" type="slide" translationId="6Vw3BPE45rv" />
+            <slidelink slideid="_player.5ljb3qmZz2X.6KGF67sqtXH" displaytext="Untitled Slide" expand="false" type="slide" translationId="6ftJukxzEZj" />
+            <slidelink slideid="_player.5ljb3qmZz2X.5sNZUbx51YP" displaytext="Inventory" expand="false" type="slide" translationId="6Zyo7L2R7KU" />
+            <slidelink slideid="_player.5ljb3qmZz2X.6NNnnh6y9d6" displaytext="ADVENTURE" expand="false" type="slide" translationId="6L2L0Drb9Ey" />
+            <slidelink slideid="_player.5ljb3qmZz2X.62dVGwS4VvV" displaytext="Intro-dialouge" expand="false" type="slide" translationId="6X1KRDh0UUI" />
+            <slidelink slideid="_player.5ljb3qmZz2X.5p8qIky4Cts" displaytext="Main Guild" expand="false" type="slide" translationId="5fjceIZzl84" />
+            <slidelink slideid="_player.5ljb3qmZz2X.6ZcFwgZXRtb" displaytext="Journal-Open" expand="false" type="slide" translationId="5vqgLMHQqEC" />
+            <slidelink slideid="_player.5ljb3qmZz2X.5k3ECmHcldw" displaytext="Dining Hall" expand="false" type="slide" translationId="5zVRAN0BKhW" />
+            <slidelink slideid="_player.5ljb3qmZz2X.6ZzfotkmjPx" displaytext="Dorm Rooms" expand="false" type="slide" translationId="6FYML90k4kn" />
+            <slidelink slideid="_player.5ljb3qmZz2X.6Id4mi0d1RT" displaytext="Marius-Guild Office" expand="false" type="slide" translationId="6hMvQluP7iN" />
+            <slidelink slideid="_player.5ljb3qmZz2X.6rVMzyIUeBV" displaytext="Kitchens" expand="false" type="slide" translationId="6mfVxHKDhhd" />
+            <slidelink slideid="_player.5ljb3qmZz2X.5t0HuR07Bur" displaytext="Library Hall" expand="false" type="slide" translationId="6LECfpfZSn5" />
+            <slidelink slideid="_player.5ljb3qmZz2X.5pW2qt5jAxC" displaytext="Inside- Library" expand="false" type="slide" translationId="6JiiQWJjCAC" />
+            <slidelink slideid="_player.5ljb3qmZz2X.68YtjEeDLpb" displaytext="Text Entry-SHEEP" expand="false" type="slide" translationId="5qPKt3wvuBh" />
+            <slidelink slideid="_player.5ljb3qmZz2X.5ejLITHVIIs" displaytext="Text Entry-WIZARD" expand="false" type="slide" translationId="5mkJQCjs4NH" />
+            <slidelink slideid="_player.5ljb3qmZz2X.5jXzOkXKown" displaytext="Text Entry-BANDIT" expand="false" type="slide" translationId="66GwRW8Rbv4" />
+            <slidelink slideid="_player.5ljb3qmZz2X.5i5yhrMaacz" displaytext="Outside Guild Office" expand="false" type="slide" translationId="5oixPJfgz7z" />
+            <slidelink slideid="_player.5ljb3qmZz2X.5gTdiUI6pnb" displaytext="SHOP" expand="false" type="slide" translationId="5vjnqEuJYga" />
+            <slidelink slideid="_player.5ljb3qmZz2X.688N6mj5aua" displaytext="Store" expand="false" type="slide" translationId="6hIMamHYfTH" />
+            <slidelink slideid="_player.5ljb3qmZz2X.6BkPAa4Kulx" displaytext="Settings" expand="false" type="slide" translationId="6TjXtolzz75" />
           </links>
         </slidelink>
       </links>
