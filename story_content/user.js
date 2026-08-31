@@ -20,9 +20,13 @@ window.Script1 = function()
 {
   const player = GetPlayer();
 
-const hasSave = localStorage.getItem("FatewalkersSave");
+const savedGame = localStorage.getItem("FatewalkersSave");
 
-player.SetVar("HasSave", hasSave !== null);
+if (savedGame) {
+    player.SetVar("HasSave", true);
+} else {
+    player.SetVar("HasSave", false);
+}
 }
 
 window.Script2 = function()
