@@ -23,9 +23,9 @@ window.Script1 = function()
 const savedGame = localStorage.getItem("FatewalkersSave");
 
 if (savedGame) {
-    player.SetVar("HasSave", true);
+    player.SetVar("Hassave", true);
 } else {
-    player.SetVar("HasSave", false);
+    player.SetVar("Hassave", false);
 }
 }
 
