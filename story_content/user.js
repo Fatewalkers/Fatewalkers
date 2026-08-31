@@ -50,6 +50,17 @@ window.Script3 = function()
 {
   const player = GetPlayer();
 
+// Delete the custom Fatewalkers save
+localStorage.removeItem("FatewalkersSave");
+
+// Tell Storyline there is no save
+player.SetVar("HasSave", false);
+}
+
+window.Script4 = function()
+{
+  const player = GetPlayer();
+
 const savedGame = localStorage.getItem("FatewalkersSave");
 
 if (savedGame) {
@@ -207,7 +218,7 @@ if (savedGame) {
 }
 }
 
-window.Script4 = function()
+window.Script5 = function()
 {
   const player = GetPlayer();
 
