@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Fatewalkers Dnd V1.8" />
+              <option name="title_text" value="Fatewalkers Dnd V1.8.4" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1604,9 +1604,15 @@
             <slidelink slideid="_player.5ljb3qmZz2X.6NNnnh6y9d6" displaytext="ADVENTURE" expand="false" type="slide" translationId="6L2L0Drb9Ey" />
             <slidelink slideid="_player.5ljb3qmZz2X.62dVGwS4VvV" displaytext="Intro-dialouge" expand="false" type="slide" translationId="6X1KRDh0UUI" />
             <slidelink slideid="_player.5ljb3qmZz2X.5p8qIky4Cts" displaytext="Main Guild" expand="false" type="slide" translationId="5fjceIZzl84" />
+            <slidelink slideid="_player.5ljb3qmZz2X.68NN6TJiJZg" displaytext="Quest 1" expand="false" type="slide" translationId="5r34JjUQBZJ" />
+            <slidelink slideid="_player.5ljb3qmZz2X.60Ebo3WJomg" displaytext="Quest 2" expand="false" type="slide" translationId="5w4X6LpqGYa" />
+            <slidelink slideid="_player.5ljb3qmZz2X.5k9RbnV4Mb4" displaytext="Quest 3" expand="false" type="slide" translationId="6IIFj4f1mAL" />
+            <slidelink slideid="_player.5ljb3qmZz2X.63y7QJ2RRlv" displaytext="Quest 4" expand="false" type="slide" translationId="5tjwa8enUEP" />
+            <slidelink slideid="_player.5ljb3qmZz2X.6N8uQMrm91t" displaytext="Quest 5" expand="false" type="slide" translationId="6a48doV5yhh" />
+            <slidelink slideid="_player.5ljb3qmZz2X.6E1hrD4tvuM" displaytext="Quests Rewards" expand="false" type="slide" translationId="6fgzi4R7rQF" />
             <slidelink slideid="_player.5ljb3qmZz2X.6ZcFwgZXRtb" displaytext="Journal-Open" expand="false" type="slide" translationId="5vqgLMHQqEC" />
-            <slidelink slideid="_player.5ljb3qmZz2X.5k3ECmHcldw" displaytext="Dining Hall" expand="false" type="slide" translationId="5zVRAN0BKhW" />
             <slidelink slideid="_player.5ljb3qmZz2X.6ZzfotkmjPx" displaytext="Dorm Rooms" expand="false" type="slide" translationId="6FYML90k4kn" />
+            <slidelink slideid="_player.5ljb3qmZz2X.5k3ECmHcldw" displaytext="Dining Hall" expand="false" type="slide" translationId="5zVRAN0BKhW" />
             <slidelink slideid="_player.5ljb3qmZz2X.6Id4mi0d1RT" displaytext="Marius-Guild Office" expand="false" type="slide" translationId="6hMvQluP7iN" />
             <slidelink slideid="_player.5ljb3qmZz2X.6rVMzyIUeBV" displaytext="Kitchens" expand="false" type="slide" translationId="6mfVxHKDhhd" />
             <slidelink slideid="_player.5ljb3qmZz2X.5t0HuR07Bur" displaytext="Library Hall" expand="false" type="slide" translationId="6LECfpfZSn5" />
