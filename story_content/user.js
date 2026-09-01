@@ -70,6 +70,9 @@ window.Script3 = function()
 
 if (localStorage.getItem("FatewalkersNewGame") === "true") {
     player.SetVar("CurrentLocation", "NewGame");
+
+    // Remove the flag so it only happens once
+    localStorage.removeItem("FatewalkersNewGame");
 }
 }
 
